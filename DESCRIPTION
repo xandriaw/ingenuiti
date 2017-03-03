@@ -1,0 +1,14 @@
+Package: ingenuiti
+Title: Ingenuiti specific data functions
+Version: 0.0.0.9000
+Authors@R: person("Xandria", "Webb", email = "xandria@ingenuiti.com", role = c("aut", "cre"))
+Description: Connect to the databases for buko and inspector. Perform special functions for ingenuiti data. 
+  Should save on repeatedly calling functions to clean and combine data.
+Depends: R (>= 3.3.2)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr,
+  RODBC
+RoxygenNote: 6.0.1.9000
